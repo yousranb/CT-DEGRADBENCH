@@ -67,6 +67,8 @@ Produces characteristic aliasing artifacts.
 
 ## 📁 Code
 
-Scripts used to generate the degradations are available in:
+Scripts used to generate the degradations are available inside scripts folder.
+The folder will be updated soon...
+
 
 
