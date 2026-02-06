@@ -13,7 +13,7 @@ change **block-wise along the slice axis**.
 
 | Degradation | Description | Preview |
 |------------|-------------|---------|
-| **Noise Synthesis** | Projection-domain Poisson noise with residual amplification | <img src="gifs/ct_noise_blocks.gif" width="300"/> |
+| **Noise Synthesis** | Projection-domain Mixed Gaussian-Poisson noise with residual amplification | <img src="gifs/ct_noise_blocks.gif" width="300"/> |
 | **Loss of sharpness** | Detector blur applied in sinogram domain | <img src="gifs/ct_blur_blocks.gif" width="300"/> |
 | **Sparse-view aliasing Effect** | Sparse View CT | <img src="gifs/ct_aliasing_blocks.gif" width="300"/> |
 
