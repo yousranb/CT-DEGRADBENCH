@@ -56,7 +56,7 @@ Produces characteristic aliasing artifacts.
 - Image domain: Hounsfield Units (HU)
 - Linear attenuation: μ = μ_water (1 + HU / 1000)
 - μ_water = 0.02 cm⁻¹
-- Radon angles: 360 views over [0°, 180°)
+- Radon angles: 360 views over [0°, 180°]
 - Reconstruction: Filtered Backprojection (ramp)
 - Display window: [-300, +300] HU
 
