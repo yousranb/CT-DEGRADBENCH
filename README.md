@@ -25,7 +25,6 @@ change **block-wise along the slice axis**.
 - Zero-mean residual boosted to avoid streak artifacts
 - Parameters:
 γ = (1, 2, 2.5, 4)
-Block sizes = (37, 37, 37, 34)
 
 Each block corresponds to a different noise intensity.
 
@@ -33,12 +32,11 @@ Each block corresponds to a different noise intensity.
 
 ## 🔎 Loss of Sharpness (σ blocks)
 
-- Sinogram-domain detector blur (Gaussian)
+- Sinogram-domain  loss of sharpness due to MAF 
 - Physically interpretable loss of spatial resolution
 - Example configuration:
 
 σ_det = (0.0, 0.8, 1.0, 1.5, 2.5)
-Block sizes = (29 × 5)
 
 ---
 
@@ -48,13 +46,12 @@ Block sizes = (29 × 5)
 - Sub-sampled angular views reconstructed
 - Parameters:
 n_views = (180, 90, 60, 45)
-Block sizes = (37, 37, 37, 34
 
 Produces characteristic aliasing artifacts.
 
 ---
 
-## ⚙️ Technical Details
+## ⚙️ Other Technical Details
 
 - Image domain: Hounsfield Units (HU)
 - Linear attenuation: μ = μ_water (1 + HU / 1000)
